@@ -146,3 +146,13 @@ The PayloadGenerator supports the following types of payloads:
 * [URL](https://github.com/codebude/QRCoder/wiki/Advanced-usage---Payload-generators#318-url)
 * [WhatsAppMessage](https://github.com/codebude/QRCoder/wiki/Advanced-usage---Payload-generators#319-whatsappmessage)
 * [WiFi](https://github.com/codebude/QRCoder/wiki/Advanced-usage---Payload-generators#320-wifi)
+
+
+```mermaid
+sequenceDiagram
+  A->> B: Query
+  B->> C: Forward query
+  Note right of C: Thinking...
+  C->> B: Response
+  B->> A: Forward response
+```
